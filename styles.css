@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root{
+
+  --text-primary: rgba(6, 20, 41, 1);
+  --text-secondary: rgb(190, 190, 190);
+  --bg-primary: rgb(52, 55, 95);
+  --bg-secondary: rgb(153, 167, 196);
+
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+
+}
+
+div.container-fluid{
+  padding: 0;
+  height: 100vh;
+}
+
+header{
+  display: block;
+  top: 0;
+  width: 100vw;
+  height: 4rem;
+  text-align: center;
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+}
+
+header > h1{
+  display: block;
+  height: 100%;
+  align-items: center;
+  margin:0;
+  padding: 10px;
+}
+
+.game{
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.status{
+  justify-content: center;
+  padding: 40px;
+}
+
+.module{
+
+  width: 100vw;
+
+}

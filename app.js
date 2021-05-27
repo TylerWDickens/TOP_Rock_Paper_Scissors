@@ -23,6 +23,31 @@ function playRound(playerSelection, computerSelection) {
     return "You Win! Scissors cuts paper"
   }
 }
+/*
+const value = document.querySelector("#value");
+const btns = document.querySelectorAll(".button");
+
+btns.forEach(function(button) {
+  button.addEventListener("click", function(e){
+    const styles = e.currentTarget.classList;
+
+    if (styles.contains('rock')){
+      count --;
+    }
+    else if(styles.contains('increase')){
+      count++;
+    }
+    else{
+      count = 0;
+    }
+    
+  value.textContent = count;
+  console.log(count);
+  });
+});
+
+*/
+
 
 function game(){
 let playerScore = 0;
@@ -30,7 +55,7 @@ let computerScore =0;
 
   for(let i=1; i<=5; i++){
     
-    let playerSelection = window.prompt("Game "+ i + ": Enter rock, paper, or scissors!").toLowerCase();
+    let playerSelection =   //window.prompt("Game "+ i + ": Enter rock, paper, or scissors!").toLowerCase();
     
     //Check input
     do { 
